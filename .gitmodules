@@ -1,0 +1,27 @@
+[submodule "home/.emacs.d/vendor/snippets/andreacotti"]
+	path = home/.emacs.d/vendor/snippets/andreacotti
+	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "home/.emacs.d/vendor/snippets/org-mode"]
+	path = home/.emacs.d/vendor/snippets/org-mode
+	url = https://github.com/RickMoynihan/yasnippet-org-mode.git
+[submodule "home/.emacs.d/vendor/snippets/clojure"]
+	path = home/.emacs.d/vendor/snippets/clojure
+	url = https://github.com/swannodette/clojure-snippets
+[submodule "home/.emacs.d/vendor/snippets/s1"]
+	path = home/.emacs.d/vendor/snippets/s1
+	url = https://github.com/jtzemp/yasnippets.git
+[submodule "home/.emacs.d/vendor/snippets/s2"]
+	path = home/.emacs.d/vendor/snippets/s2
+	url = https://github.com/arvidj/yasnippets.git
+[submodule "home/.emacs.d/vendor/snippets/js"]
+	path = home/.emacs.d/vendor/snippets/js
+	url = https://github.com/azer/js-yasnippets.git
+[submodule "home/.emacs.d/vendor/snippets/django"]
+	path = home/.emacs.d/vendor/snippets/django
+	url = https://github.com/jonatkinson/yasnippet-django.git
+[submodule "home/.emacs.d/vendor/snippets/emticon"]
+	path = home/.emacs.d/vendor/snippets/emticon
+	url = https://github.com/ksexton/yasnippet-emoticons.git
+[submodule "home/.emacs.d/vendor/snippets/s3"]
+	path = home/.emacs.d/vendor/snippets/s3
+	url = https://github.com/rejeep/yasnippets.git
