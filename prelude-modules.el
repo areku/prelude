@@ -13,7 +13,7 @@
 ;; (require 'prelude-erlang)
 (require 'prelude-haskell)
 (require 'prelude-js)
-(require 'prelude-key-chord) ;; Binds useful features to key combinations
+;(require 'prelude-key-chord) ;; Binds useful features to key combinations
 (require 'prelude-latex)
 (require 'prelude-lisp)
 (require 'prelude-mediawiki)
@@ -27,7 +27,7 @@
 (require 'prelude-web) ;; Emacs mode for web templates
 (require 'prelude-xml)
 (require 'prelude-scala)
-;(require 'prelude-go)
+(require 'prelude-go)
 ;:(require 'prelude-evil)
 (require 'prelude-company)
 (require 'prelude-shell)
