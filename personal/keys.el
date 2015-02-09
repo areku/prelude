@@ -12,3 +12,23 @@
 
 (setq ace-jump-mode-scope 'global)
 (setq ace-jump-mode-enable-mark-sync t)
+
+;;set smart-line-mode
+(require 'smart-mode-line)
+(sml/setup)
+(sml/apply-theme 'respectful)
+
+(add-to-list 'sml/replacer-regexp-list '("^~/workspace/mth/pub/" ":MA:") t)
+(add-to-list 'sml/replacer-regexp-list '("^~/Projects/" ":P:") t)
+(add-to-list 'sml/replacer-regexp-list '("^~/workspace" ":W:") t)
+
+
+
+
+
+
+
+
+
+
+
