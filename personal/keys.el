@@ -5,7 +5,9 @@
   '(ace-jump-mode-enable-mark-sync))
 (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
 
-;(define-key evil-normal-state-map (kbd "SPC") 'ace-jump-mode)
+(when (boundp 'evil-normal-state-map)
+  (define-key evil-normal-state-map (kbd "SPC") 'ace-jump-mode))
+
 (setq ace-jump-mode-case-fold t)
 
 (setq ace-jump-mode-scope 'global)
